@@ -1,5 +1,5 @@
 #
-# My personal list
+# My list
 #
 deny 51.83.4.0/22; # France
 deny 85.203.46.0/24; # Netherlands
