@@ -8,6 +8,7 @@ deny 45.88.192.0/20; # Amsterdam
 deny 45.88.208.0/21; # Amsterdam
 deny 51.83.4.0/22; # France
 deny 85.203.46.0/24; # Netherlands
+deny 93.0.0.0/8; # Netherlands
 deny 95.134.16.0/22; # Singaport
 deny 95.134.224.0/22; # Singapore
 deny 103.215.74.0/23; # SoloRDP.com
