@@ -1,11 +1,7 @@
 #
 # My list
 #
-deny 45.80.0.0/13; # Amsterdam
-deny 45.88.0.0/17; # Amsterdam
-deny 45.88.128.0/18; # Amsterdam
-deny 45.88.192.0/20; # Amsterdam
-deny 45.88.208.0/21; # Amsterdam
+deny 45.0.0.0.8; # Amsterdam
 deny 51.83.4.0/22; # France
 deny 85.203.46.0/24; # Netherlands
 deny 93.0.0.0/8; # Netherlands
