@@ -3,6 +3,7 @@
 #
 deny 45.0.0.0.8; # Amsterdam
 deny 51.83.4.0/22; # France
+deny 62.210.128.0/17; # More France VPS Hackers
 deny 85.203.46.0/24; # Netherlands
 deny 93.0.0.0/8; # Netherlands
 deny 95.134.16.0/22; # Singaport
