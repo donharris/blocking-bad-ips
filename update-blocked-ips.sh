@@ -11,7 +11,7 @@ grep -v ^\; /tmp/spamhaus.txt | awk '{ print "deny "$1";"}' >> /etc/nginx/conf.d
 # Add Spamhaus DROP (Don't Route or Peer list)
 curl -sS https://www.spamhaus.org/drop/drop.txt > /tmp/spamhaus_drop.txt
 echo "# Start Spamhaus DROP List" >> /etc/nginx/conf.d/blocklist.conf
-grep -v ^\; /tmp/spamhaus_drop.txt >> /etc/nginx/conf.d/blocklist.conf
+grep -v ^\; /tmp/spamhaus_drop.txt | awk '{print "deny " $1}' /tmp/spamhaus_drop.txt >> /etc/nginx/conf.d/blocklist.conf
 
 # Add Country Block lists
 # Russia
