@@ -10,6 +10,7 @@ deny 93.0.0.0/8; # Netherlands
 deny 95.134.16.0/22; # Singaport
 deny 95.134.224.0/22; # Singapore
 deny 103.215.74.0/23; # SoloRDP.com
+deny 106.219.160.71; # Email spam
 deny 151.115.0.0/17; # Block Poland
 deny 178.92.172.0/22; # Signapore
 deny 172.200.0.0/13; # Amsterdam
