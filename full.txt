@@ -16,3 +16,4 @@ deny 178.92.172.0/22; # Signapore
 deny 172.200.0.0/13; # Amsterdam
 deny 172.208.0.0/13; # Amsterdam
 deny 178.92.172.0/22; # Singapore
+deny 212.0.0.0/8; # Get rid of RIPE addresses - all spam
