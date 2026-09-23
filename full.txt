@@ -1,6 +1,7 @@
 #
 # My list
 #
+deny 31.171.130.0/24; # Panama email spammer
 deny 45.0.0.0/8; # Amsterdam
 deny 50.229.149.218; # Comcast email spammer
 deny 51.83.4.0/22; # France
