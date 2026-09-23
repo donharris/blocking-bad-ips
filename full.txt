@@ -2,10 +2,12 @@
 # My list
 #
 deny 13.140.0.0/14; # Amsterdam spam
+deny 31.171.130.0/24; # Panama email spammer
 deny 45.0.0.0/8; # Amsterdam
 deny 50.229.149.218; # Comcast email spammer
 deny 51.83.4.0/22; # France
 deny 62.210.128.0/17; # More France VPS Hackers
+deny 64.31.0.0/18; # Email spammers over VPN
 deny 85.203.46.0/24; # Netherlands
 deny 93.0.0.0/8; # Netherlands
 deny 95.134.16.0/22; # Singaport
@@ -18,3 +20,4 @@ deny 178.92.172.0/22; # Signapore
 deny 172.200.0.0/13; # Amsterdam
 deny 172.208.0.0/13; # Amsterdam
 deny 178.92.172.0/22; # Singapore
+deny 212.0.0.0/8; # Get rid of RIPE addresses - all spam

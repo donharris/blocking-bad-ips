@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Add Cloudflare IP blocks to allow list
+curl -sS https://raw.githubusercontent.com/donharris/blocking-bad-ips/main/cloudflare_ips.txt > /etc/nginx/cloudflare-realip.inc
+
 # Add my personal block list
 curl -sS https://raw.githubusercontent.com/donharris/blocking-bad-ips/main/full.txt > /etc/nginx/conf.d/blocklist.conf
 
